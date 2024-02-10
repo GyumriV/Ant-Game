@@ -1,6 +1,6 @@
-**Ant Game**
+# **Ant Game**
 
-**#Description**
+## **Description**
 
 This is a mobile game that I have developed for my CSC 133 class (Object Oriented Programming - Graphics) at Sac State.
 In this game you are controlling an Ant with the objective of reaching all flag stations in order while avoiding spiders and starvation.
@@ -10,20 +10,20 @@ You have three lives. If your health or food level reach 0 then you will lose a 
 
 If you would like to play the final product, run A3Prj. A1Prj and A2Prj are previous versions in which I will describe below. 
 
-**#Requirements**
+## **Requirements**
 - Java SE JDK Version 17
 - Eclipse IDE for Java Developers
 - Codename One(CN1) plugin
 - JavaFX SDK 11.0.2 (only for A3Prj)
 
-**#How to run Ant Game** <br><br>
+## **How to run Ant Game** <br><br>
 After you have successfully installed the requirements, open the A3Prj folder in the Eclipse IDE.
 At the left panel you will see the list of files for the project. 
 Near the bottom of the list, you will see a file named "Simulator_A1Prj.launch".
 Right click this files, hover over "run as" and select "Simulator_A1Prj"
  - You can use this same method to run A1Prj and A2Prj as well.
 
-**#Troubleshooting** <br><br>
+## **Troubleshooting** <br><br>
 If the sound is not playing:
 	- make sure that you have downloaded the correct version of JavaFX (11.0.2)
 	- set PATH_TO_JAVAFX_LIB system enviornment variable to the JavaFX/lib folder in you Java directory
@@ -36,7 +36,7 @@ If the sound is not playing:
 If the game does not automatically play when you run the program: <br> <br>
 	- click on the "pause" button at the bottom of the display twice to fix this issue.
 
-**#A1Prj** <br> <br>
+### **A1Prj** <br> <br>
 In the first assignment I have created the structure of my game such as:
 	GameWorld: initializes the game, creates the Game Objects and houses the methods used by Game Objects.
 	Ant and Spider which are Movable Game Objects. Flag and FoodStations which are fixed Game Objects.
@@ -55,13 +55,13 @@ Commands:<br>
 - **t :** 'tick' handles operations for every game second
 - **d :** 'display' shows gameObject information such as heatlh and location in the Eclipse Console
 	
-**#A2Prj** <br> <br>
+### **A2Prj** <br> <br>
 In this assignment I have implemented a GUI so that the user is able to see Ant information clearly while being able to execute commands by simplying pressing the corresponding keys or by clicking on the buttons.
 Since there is a GUI now, there is no need for the flagCheck or Display Command as they can be done on screen.
 <br>
 To get a list of commands in the application, click on the "Help" button on the top right corner of the display.
 
-**#A3Prj** <br> <br>
+### **A3Prj** <br> <br>
 This is the final version of the project. 
 I have added visual representation for my game Objects as well as enabled sounds.
 The user can now pause the game by clicking on the button located at the bottom of the screen.
